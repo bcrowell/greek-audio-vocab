@@ -3,8 +3,8 @@
 
 # usage:
 #  ./record.rb λογος
-#  ./record.rb raw/λογος
-#  ...these both write to raw/λογος.wav
+#  ./record.rb mp3/λογος
+#  ...these both write to audio/λογος.mp3
 
 mic = 'tonor' # 'tonor' or 'logi'
 
@@ -53,5 +53,5 @@ s("ffmpeg -i temp.wav -af \"afftdn=nf=-25\" temp2.wav     && mv temp2.wav temp.w
 s("lame --abr 14 -m m temp.wav #{f}")
 print "success\n"
 s("mpg321 -K #{f}")
-
+s("rm -f temp.wav")
 
