@@ -31,7 +31,7 @@ sub concat {
   my @v = @$vref;
   my $l = join("|$pause|",@v);
   # my $c = "mp3cut -o vocab.wav $l";
-  my $c = "ffmpeg -i 'concat:$l' -acodec copy $file";
+  my $c = "ffmpeg -y -i 'concat:$l' -acodec copy $file";
   print "$c\n";
   system $c;
 }
