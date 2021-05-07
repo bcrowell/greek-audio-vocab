@@ -16,7 +16,7 @@ if ($small*$n_small<$n) {++$small}
 print "$n words, building $n_small files, $small words each\n";
 my @small_files = ();
 for (my $k=0; $k<$n_small; $k++) {
-  my $top = ($k+1)*$small;
+  my $top = ($k+1)*$small-1;
   if ($top>$#all_v) {$top=$#all_v}
   my @v = @all_v[$k*$small..$top];
   my $k_plus_1 = $k+1;
