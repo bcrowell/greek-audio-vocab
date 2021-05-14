@@ -11,6 +11,12 @@ mp3 file that can be listened to in the car.
 
 The pronunciation is basically Erasmian, with the following exceptions.
 
+## Omega and circumflexes
+
+I'm a Californian, so I
+can't pronounce ω as open "o," but I pronounce it longer than omicron except when
+it's a verb ending. I try to do a rising-falling tone for circumflexes.
+
 ## Anachronisms from modern Greek
 
 For combinations of vowels like
@@ -18,10 +24,4 @@ For combinations of vowels like
 and "av," as in modern Greek. I iotacize ει. I pronounce the
 following consonants as in modern Greek: ζ, θ, χ, φ.
 
-## Vowels
 
-I'm a Californian, so I
-can't pronounce ω as open "o," but I pronounce it longer than omicron except when
-it's a verb ending. I try to do a rising-falling tone for circumflexes.
-
-## 
