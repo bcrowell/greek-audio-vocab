@@ -43,7 +43,7 @@ trap "SIGINT" do end
 print "Use control-C to stop recording."
 
 if mic=='tonor'
-  s("arecord -f S16_LE -r 44100 --device=\"hw:3,0\" temp.wav")
+  s("arecord -f S16_LE -r 44100 --device=\"hw:1,0\" temp.wav") # is 3,0 when webcam is also hooked up
 else
   s("arecord -f S16_LE -r 48000 --device=\"hw:1,0\" temp.wav")
 end
